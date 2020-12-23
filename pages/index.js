@@ -29,7 +29,7 @@ export default function Home({ allPostData }) {
             </Link>
             <br />
             <small className={utilStyles.lightText}>
-              {/* <Date dateString={date} /> */}
+              <Date dateString={date} />
             </small>
           </li>
           ))}
